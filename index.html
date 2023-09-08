@@ -9,20 +9,20 @@
 </head>
 
 <body>
-    <div class="max-w-sm mx-auto my-16 p-8 border-2 shadow-xl shadow-gray-300 space-y-2">
+    <div class="max-w-sm mx-auto my-16 p-8 border-2 shadow-xl shadow-gray-300 space-y-3">
         <div class="flex flex-col items-center">
             <!-- <h1 class="text-orange-600 font-bold text-xl">Weather Application</h1> -->
             <input
-                class="rounded-lg shadow-lg min-w-fit px-2 py-2 outline-0 text-lg font-semibold text-gray-700 bg-gray-50"
+                class="rounded-lg shadow-lg w-full px-6 py-2 outline-0 text-lg font-semibold text-gray-700 bg-gray-50"
                 autocomplete="off" id="search" class="" type="text" placeholder="Enter city to search">
         </div>
         <div class="flex">
-            <div class="flex-1">
-                <img class="h-16" id="condition-icon" src="" alt="">
-                <span class="text-4xl text-gray-700 inline" id="condition-text"></span>
+            <div class="flex-1 items-center justify-center">
+                <img class="h-20" id="condition-icon" src="" alt="">
             </div>
             <p class=" text-gray-600 flex-1 font-semibold my-auto text-6xl" id="temp"></p>
         </div>
+        <p class="text-2xl text-gray-700 inline" id="condition-text"></p>
         <p class="text-2xl font-bold " id="location"></p>
 
         <p class="text-xl text-gray-600" id="humidity"></p>
