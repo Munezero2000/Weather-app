@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="max-w-md mx-auto my-40 p-4 border-2 rounded-xl shadow-xl shadow-gray-300 space-y-2">
+        <div class="flex items-center">
+            <h1 class="text-orange-600 font-bold text-xl">Weather Application</h1>
+            <input class="rounded-lg shadow-lg px-4 py-2 outline-0 text-lg font-semibold text-gray-700 bg-gray-50"
+                autocomplete="off" id="search" class="" type="text" placeholder="Enter city to search">
+        </div>
+        <div class="flex">
+            <div class="flex-1">
+                <img class="h-16" id="condition-icon" src="" alt="">
+                <span class="text-4xl text-gray-700 inline" id="condition-text"></span>
+            </div>
+            <p class=" text-gray-600 flex-1 font-semibold text-8xl" id="temp"></p>
+        </div>
+        <p class="text-2xl font-bold " id="location"></p>
+
+        <p class="text-xl text-gray-600" id="humidity"></p>
+        <p class="text-xl text-gray-600" id="wind"></p>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
